@@ -1,3 +1,5 @@
+"use strict"
+
 var getArea = require('./shapesarea.js');
 
 try {

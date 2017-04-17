@@ -1,3 +1,5 @@
+"use strict"
+
 var Shape = require('./shapes.js').Shape;
 var Triangle = require('./shapes.js').Triangle;
 var Square = require('./shapes.js').Square;
