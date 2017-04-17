@@ -1,22 +1,25 @@
+var Shape = require('./shapes.js').Shape;
+var Triangle = require('./shapes.js').Triangle;
+var Square = require('./shapes.js').Square;
+var Rectangle = require('./shapes.js').Rectangle;
+
+var shapes = {
+	Triangle: 'Triangle',
+	Square: 'Square',
+	Rectangle: 'Rectangle'
+};
+
 module.exports = function(shape, options) {
-  var area = 0;
+	var area = 0;
 
-  switch (shape) {
-    case 'Triangle':
-      area = .5 * options.width * options.height;
-      break;
+	try {
+		let clase = eval(shapes[shape]);
+		let new_shape = new clase(options.width, options.height);
+		area = new_shape.getArea();
+	}
+	catch(err) {
+		console.log('Desconozco como construir la forma ' + shape);
+	}
 
-    case 'Square':
-      area = Math.pow(options.width, 2);
-      break;
-
-    case 'Rectangle':
-      area = options.width * options.height;
-      break;
-
-    default:
-      throw new Error('Invalid shape: ' + shape);
-  }
-
-  return area;
+	return area;
 }

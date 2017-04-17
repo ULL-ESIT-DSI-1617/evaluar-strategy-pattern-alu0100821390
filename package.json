@@ -7,16 +7,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ULL-ESIT-DSI-1617/evalua-strategy-pattern.git"
+    "url": "git@github.com:ULL-ESIT-DSI-1617/evaluar-strategy-pattern-alu0100821390.git"
   },
   "keywords": [
     "js",
     "switch smell"
   ],
-  "author": "Casiano Rodriguez Leon",
+  "author": "Casiano Rodriguez Leon-Kevin Estévez Expósito",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ULL-ESIT-DSI-1617/evalua-strategy-pattern/issues"
+    "url": "https://github.com/ULL-ESIT-DSI-1617/evaluar-strategy-pattern-alu0100821390/issues"
   },
   "homepage": "",
   "dependencies": {
