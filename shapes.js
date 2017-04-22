@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 class Shape {
 	constructor(width, height) {
@@ -47,4 +47,3 @@ module.exports = {
 	Square: Square,
 	Rectangle: Rectangle
 };
-	
